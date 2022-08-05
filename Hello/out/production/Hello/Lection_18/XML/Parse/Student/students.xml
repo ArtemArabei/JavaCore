@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student login="mmm" faculty="java">
+        <name>Masha</name>
+        <telephone>2456474</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Minsk</city>
+            <street>Kalinovsky 45</street>
+        </address>
+    </student>
+    <student login="ddd" faculty="java">
+        <name>Dima</name>
+        <telephone>3453789</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Brest</city>
+            <street>Knorina 56</street>
+        </address>
+    </student>
+    <student login="nnn" faculty="java">
+        <name>Nikita</name>
+        <telephone>3453789</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Grodno</city>
+            <street>Knorina 56</street>
+        </address>
+    </student>
+</students>
