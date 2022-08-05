@@ -1,0 +1,17 @@
+package Lection_17.Java_Design_Patterns.Pattern.command;
+
+import java.util.Stack;
+
+public class CommandHistory {
+    private Stack<Command> history = new Stack<>();
+
+    public void push(Command c) {
+        history.push(c);
+    }
+
+    public Command pop() {
+        return history.pop();
+    }
+
+    public boolean isEmpty() { return history.isEmpty(); }
+}
